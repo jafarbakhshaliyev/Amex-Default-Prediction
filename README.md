@@ -1,5 +1,4 @@
 # American Express - Default Prediction
-### You can see the Kaggle competition from this link: https://www.kaggle.com/competitions/amex-default-prediction/overview
 
 Whether out at a restaurant or buying tickets to a concert, modern life counts on the convenience of a credit card to make daily purchases. It saves us from carrying large amounts of cash and also can advance a full purchase that can be paid over time. How do card issuers know we’ll pay back what we charge? That’s a complex problem with many existing solutions—and even more potential improvements, to be explored in this competition.
 
@@ -25,4 +24,6 @@ with the following features being categorical:['B_30', 'B_38', 'D_114', 'D_116',
 Your task is to predict, for each customer_ID, the probability of a future payment default (target = 1).
 
 Note that the negative class has been subsampled for this dataset at 5%, and thus receives a 20x weighting in the scoring metric.
+
+### You can see the Kaggle competition from this link: https://www.kaggle.com/competitions/amex-default-prediction/overview
 
