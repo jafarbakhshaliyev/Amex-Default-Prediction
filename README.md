@@ -1,4 +1,5 @@
 # American Express - Default Prediction
+## You can see competition from here: https://www.kaggle.com/competitions/amex-default-prediction/overview
 
 Whether out at a restaurant or buying tickets to a concert, modern life counts on the convenience of a credit card to make daily purchases. It saves us from carrying large amounts of cash and also can advance a full purchase that can be paid over time. How do card issuers know we’ll pay back what we charge? That’s a complex problem with many existing solutions—and even more potential improvements, to be explored in this competition.
 
@@ -19,9 +20,7 @@ S_* = Spend variables
 P_* = Payment variables
 B_* = Balance variables
 R_* = Risk variables
-with the following features being categorical:
-
-['B_30', 'B_38', 'D_114', 'D_116', 'D_117', 'D_120', 'D_126', 'D_63', 'D_64', 'D_66', 'D_68']
+with the following features being categorical:['B_30', 'B_38', 'D_114', 'D_116', 'D_117', 'D_120', 'D_126', 'D_63', 'D_64', 'D_66', 'D_68']
 
 Your task is to predict, for each customer_ID, the probability of a future payment default (target = 1).
 
